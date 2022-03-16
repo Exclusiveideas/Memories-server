@@ -17,11 +17,19 @@ app.use(cors({
   origin: '*'
 }));
 
+app.all('/', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next()
+});
+
 app.use('/posts', postRoutes);
 
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
     res.send('Hello to Memories API')
 })
+
+
 
 const PORT = process.env.PORT;
 
