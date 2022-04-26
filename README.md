@@ -1,8 +1,8 @@
 # Introduction
 Using React, Node.js, Express & MongoDB, I developed a Full Stacl MERN application called "Memories". Memories is a MERN stack application is a simple social media app that allows users to post interesting events and amazing moments that happened in their lives with an image that best describes the event/moment to you, with tags, e.t.c You can as well view and like other user's memories.
 
-## Client
-visit https://github.com/Exclusiveideas/Memories-client to view the client repository of the Memories application.
+## Server
+This repository is the server repository. to view th client-side repository of the Memories application, visit https://github.com/Exclusiveideas/Memories-client.
 
 ## Setup
 run ```npm i && npm start``` to start the app
