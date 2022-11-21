@@ -19,7 +19,7 @@ Visit [here](https://memories-344309.web.app) to view the live version of this a
 
 ## Installation Steps 
 **1. First clone the project by running** <br />
-   ``` git clone https://github.com/<your-username>/Memories-server.git ```
+   ``` git clone https://github.com/Exclusiveideas/Memories-server.git ```
 <br />
 
 **2. Go into the project directory**  <br />
